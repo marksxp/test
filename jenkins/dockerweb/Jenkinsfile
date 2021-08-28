@@ -1,3 +1,4 @@
+//sudo chmod 777 /var/run/docker.sock
 pipeline {
 	agent any
 	parameters {
