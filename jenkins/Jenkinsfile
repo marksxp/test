@@ -1,7 +1,7 @@
-import groovvy.json.JsonSlurperClassic
+import groovy.json.JsonSlurperClassic
 
 def jsonParse(def json){
-    new groovvy.json.JsonSlurperClassic().parseText(json)
+    new groovy.json.JsonSlurperClassic().parseText(json)
 }
 pipeline {
     agent { label 'master' }
